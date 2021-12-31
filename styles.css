@@ -1,0 +1,159 @@
+body {
+    font-family: roboto, sans-serif, arial;
+    margin: 0;
+    background-image: url(stage.webp);
+    background-color: white;
+}
+.header1 a, .header2 p {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+.header1, .header2 {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    padding: 10px 150px;
+}
+.header1 p {
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    color: #f9faf8;
+}
+.header1 .right {
+    display: flex;
+    gap: 20px;
+}
+.header2 .left {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.header2 .left .b1 {
+    display: flex;
+    gap: 10px;
+    padding: 20px 0;
+}
+.header2 figure {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+figcaption {
+    background-color: tomato;
+    color: wheat;
+    text-align: center;
+    font-size: 20px;
+}
+.header2 img {
+    width: 600px;
+    height: 320px;
+}
+.button {
+    background-color: #3882f6; 
+    border-radius: 8%;
+    padding: 5px 15px 5px 15px;
+    border: 1px solid transparent;
+    vertical-align: middle;
+    color: #f9faf8;
+    font-weight: bold;
+}
+h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    padding: 0;
+    margin: 0;
+}
+.header2 p {
+    margin: 0;
+    padding: 0;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 10px 200px;
+}
+h3 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.prod {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+.prod img {
+    width: 200px;
+    height: 200px;
+}
+.prod a {
+    text-decoration: none;
+    color: #000;
+}
+.new {
+    display: flex;
+    flex-direction: column;
+}
+.quote {
+    background-color: #e5e7eb;
+    padding: 0 200px;
+}
+.act1 {
+    margin: 0;
+    padding: 40px 20px 0 20px;
+    font-size: 24px;    
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    text-align: justify;
+}
+.act2 {
+    text-align: right;
+    margin: 0;
+    padding: 0px 20px 40px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+
+}
+.act {
+    margin: 40px 150px;
+    border-radius: 5px;
+    padding: 40px 50px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+}
+.call p {
+    margin: 0;
+}
+.call1 {
+    font-size: 20px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+.call {
+    font-size: 16px;
+    color: #e5e7eb;
+}
+.act button {
+    border: 2px solid #f9faf8;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #f9faf8;
+    border-radius: 4px;
+}
+footer {
+    background-color: #1f2937;
+    padding: 20px 200px;
+    color: #f9faf8;
+    text-align: center;
+}
